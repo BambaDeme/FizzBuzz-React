@@ -16,7 +16,9 @@ function App() {
         </p>
       </header>
 
-      <section className="counter">{fizzbuzz(counter)}</section>
+      <section className="counter" data-testid="counter">
+        {fizzbuzz(counter)}
+      </section>
 
       <div className="actions">
         <Prev counter={counter} setCounter={setCounter} />

@@ -3,12 +3,12 @@ import { fizzbuzz } from "../components/fizzBuzz";
 
 describe("fizzbuzz", () => {
   it("Doit retourner le nombre passé en paramétre si celui-ci n'est pas divisible  pasr 3 ni par 5", () => {
-    expect(fizzbuzz(1)).toBe(1);
-    expect(fizzbuzz(2)).toBe(2);
-    expect(fizzbuzz(4)).toBe(4);
-    expect(fizzbuzz(7)).toBe(7);
-    expect(fizzbuzz(8)).toBe(8);
-    expect(fizzbuzz(11)).toBe(11);
+    expect(fizzbuzz(1)).toBe("1");
+    expect(fizzbuzz(2)).toBe("2");
+    expect(fizzbuzz(4)).toBe("4");
+    expect(fizzbuzz(7)).toBe("7");
+    expect(fizzbuzz(8)).toBe("8");
+    expect(fizzbuzz(11)).toBe("11");
   });
 
   it("Doit retourner 'fizz' si le nombre passé est divisible par 3", () => {
